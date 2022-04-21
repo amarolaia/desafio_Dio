@@ -1,4 +1,5 @@
-## Repósitório do Desafio da @Dio_
+## Desafio Git/GitHub da Digital Innovation One - (https://www.dio.me/) 
+
 Repoitório onde estará sendo armazenado os desafios de estudo.
 
 # Link Úteis
