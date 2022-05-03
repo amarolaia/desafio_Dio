@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="amaro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-19 12:11:30 "/>
+        <attribute name="created" value="YW1hcm87TEFJQS1OT1RFOzIwMjItMDQtMTk7IjExOjQzOjM2ICI7MjM1NQ=="/>
+        <attribute name="edited" value="YW1hcm87TEFJQS1OT1RFOzIwMjItMDQtMTk7IjEyOjExOjMwICI7MTsyNDUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Insir&#225; o valor total das Venda de Janeiro&quot;" newline="True"/>
+            <input variable="janeiro"/>
+            <output expression="&quot;Insir&#225; o valor total das Venda de Fevereiro&quot;" newline="True"/>
+            <input variable="fevereiro"/>
+            <output expression="&quot;Insir&#225; o valor total das Venda de Mar&#231;o&quot;" newline="True"/>
+            <input variable="marco"/>
+            <output expression="&quot;Insir&#225; o valor total das Venda de Abril&quot;" newline="True"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="&quot;Sua M&#233;dia de Vendas em (Janeiro, Fevereiro, Mar&#231;o e Abril) foi&quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; receber&#225; um abono de 10% este M&#234;s&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; receber&#225; um abono de 3% este M&#234;s&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
